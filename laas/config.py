@@ -1,5 +1,5 @@
-CHECKPOINT_DIR = "llama-2-7b-chat/"
-TOKENIZER_PATH = "tokenizer.model"
+CHECKPOINT_DIR = "../../llama/llama-2-7b-chat/"
+TOKENIZER_PATH = "../../llama/tokenizer.model"
 MAX_SEQ_LEN = 512
 MAX_BATCH_SIZE = 8
 MODEL_PARALLEL_SIZE = 1
