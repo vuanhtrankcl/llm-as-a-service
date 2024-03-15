@@ -5,7 +5,7 @@ from typing import Annotated
 
 from fastapi import Depends, FastAPI, status
 
-from laas import api_models, config, engine
+from .laas import api_models, config, engine
 
 app = FastAPI()
 
